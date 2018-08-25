@@ -1,14 +1,11 @@
 /*
 This runs a game of BlackJack. The program allows for six players, multiple
-decks, and realistic gameplay (including splits and doubles). Insurance is not
-offered as it returns negative EV and thus is always unfavorable to the player.
-Dealer hits to 17, and BlackJack pays 3:2. The game will continue until all
-players go bankrupt.
+decks, and realistic gameplay (including splits and doubles). Dealer hits to 17,
+and BlackJack pays 3:2. The game will continue until all players go bankrupt.
 
-Error handling is built in, and thus program flow continues even after user -
-mistakes. Various pauses are commented out throughout the code in the BlackJack
-and Dealer java files. These can be uncommented to aid in fluidity when using
-this program in the command line.
+Various pauses are commented out throughout the code in the BlackJack and Dealer
+java files. These can be uncommented to aid in fluidity when using this program
+in the command line.
 */
 
 import java.util.concurrent.TimeUnit;
